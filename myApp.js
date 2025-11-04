@@ -5,7 +5,7 @@ let app = express();
 
 
 app.get('/', (req, res) => {
-  res.send(__dirname + '/views/index.html');
+  res.send(__dirname + '/public/index.html');
 });
 
 
